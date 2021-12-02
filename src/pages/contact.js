@@ -10,39 +10,38 @@ const Contact = () => {
       <Fade bottom cascade>
         <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
           <div className="bg-lightblack p-10 rounded-xl w-3/4 m-5">
-            <h2 className="text-xs opacity-50">Get in touch</h2>
+            <h2 className="text-xs opacity-50">contact me</h2>
             <h1 className="text-4xl font-bold font-poppins mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
-              Let's work together
+              lets fight for gun rights
             </h1>
             <p className="text-lg mt-2 opacity-50 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              Guns are seen as a bad thing, when its the people who are.
             </p>
             <form className="mt-5">
               <div className="flex xxs:flex-col sm:flex-row">
                 <div className="sm:mr-5 xxs:mr-0">
-                  <Input placeholder="Your Name"></Input>
+                  <Input placeholder="elijah mills"></Input>
                 </div>
                 <div className="sm:ml-5 xxs:ml-0 xxs:mt-2 sm:mt-0">
-                  <Input placeholder="Your Email"></Input>
+                  <Input placeholder="yohey2189@gmail. om"></Input>
                 </div>
               </div>
 
               <div className="flex mt-5 xxs:flex-col sm:flex-row">
                 <div className="sm:mr-5 xxs:mr-0">
-                  <Input placeholder="Your Company"></Input>
+                  <Input placeholder="gunderson ms"></Input>
                 </div>
                 <div className="sm:ml-5 xxs:ml-0 xxs:mt-2 sm:mt-0">
-                  <Input placeholder="Your Phone"></Input>
+                  <Input placeholder="702-551-6834"></Input>
                 </div>
               </div>
               <textarea
                 className="mt-5 w-full bg-white bg-opacity-20 rounded-xl p-5"
                 rows="5"
-                placeholder="How can we help you?"
+                placeholder="how can i help"
               ></textarea>
               <Button
-                title="Send us a message"
+                title="send me a message"
                 colorClass="bg-gradient-to-r from-pink to-purple"
                 marginClass="mt-5"
               ></Button>
